@@ -1,4 +1,4 @@
-It's a cool To-do List to keep you sync with your today's routine!!! Check it out!!!
+It's a cool To-do List to keep you in sync with your today's routine!!! Check it out!!!
 
 ![Screenshot (537)](https://user-images.githubusercontent.com/96338804/201357661-723719ef-7e24-47ee-ba45-d4e8f39ffd94.png)
 
