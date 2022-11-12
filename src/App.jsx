@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import TodoLists from './TodoLists';
+import AddIcon from '@mui/icons-material/Add';
+import Button from '@mui/material/Button';
 const App = () => {
     const [newTask, setNewTask] = useState();
     const [Items, setItems] = useState([]); //An array who will change states so initially passed an empty array
@@ -26,7 +28,8 @@ const App = () => {
                     <br/> <h1>To-do List</h1> <br/>
                     <input type="text" placeholder="Add Item" onChange={inputEvent} value={newTask}/>
                     <button onClick={itemListUpdate}> + </button>
-
+                    {/* We can give show cool button using material ui
+                    <Button className="newBtn"><AddIcon/></Button> */}
                     <ol>
                         {Items.map((itemval,index)=>{ //onSelect and all others is a custom attribute
                             return <TodoLists key={index} id={index} text={itemval} onSelect={deleteItems}/>;
